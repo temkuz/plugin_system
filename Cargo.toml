@@ -1,8 +1,8 @@
 [workspace]
 
 members = [
-    "plugin", 
-    "test_plugin"
+    "plugin",
+    "modules/*"
 ]
 
 resolver = "3"

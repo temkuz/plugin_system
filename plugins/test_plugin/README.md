@@ -1,4 +1,4 @@
-test_module
+test_plugin
 ===
 
 Usage

@@ -19,6 +19,7 @@ pub struct Request {
 }
 
 impl Request {
+    /// Method for all plugins for read from stdin
     pub fn read_stdin() -> Self {
         let r = serde_json::from_reader(std::io::stdin());
         match r {

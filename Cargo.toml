@@ -2,7 +2,7 @@
 
 members = [
     "plugin",
-    "modules/*"
+    "plugins/*"
 ]
 
 resolver = "3"

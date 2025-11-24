@@ -4,7 +4,7 @@ test_module
 Usage
 
 ```shell
-echo '{"method":"ping","id": 123}' | test_module.exe
+echo '{"method":"ping","id": 123}' | test_module
 ```
 
 Response 

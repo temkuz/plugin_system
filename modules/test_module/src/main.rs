@@ -1,6 +1,8 @@
 use plugin::{Handler, Request, Response};
 
 fn ping(request: Request) -> Response {
+    //! An example of a function that ignores input parameters and always returns success response
+
     let value = serde_json::to_value("pong").unwrap();
     Response::success(value, request.id)
 }

@@ -4,7 +4,7 @@ test_plugin
 Usage
 
 ```shell
-echo '{"method":"ping","id": 123}' | test_module
+echo '{"method":"ping","id": 123}' | test_plugin
 ```
 
 Response 
